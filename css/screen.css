@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+* {
+	border:medium none;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+img {
+	display:block;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+
+.cb, .c {
+	clear:both;
+}
+
+.cl {
+	clear:left;
+}
+
+.noDisplay {
+	display: none;	
+}
+
+body {
+	text-align: center;
+	color: #000;
+	font: 68.75% "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif !important;
+	line-height: 130%;
+	padding: 50px 0 30px 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #09c;
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: underline;
+	color: #09c !important;
+	cursor: pointer;
+}
+
+#container {
+	margin: 0 auto;
+	width: 944px;
+}
+
+#firstHeader {
+	width: 944px;
+	height: 85px;
+	background: url(../img/header1.jpg);
+}
+
+#secondHeader {
+	width: 944px;
+	height: 56px;
+	background: url(../img/header2.jpg);
+}
+
+#toc {
+	width: 944px;
+	height: 57px;
+	margin: 5px 0 0 0;
+	/* background: url(../img/toc2.jpg); */
+	background: #dbdb4c;
+}
+
+#toc h2 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 220%;
+	float: left;
+	margin: 15px 25px 0 25px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+#listContent {
+	margin: 5px 0 0 0;
+	width: 944px;
+	background: #ffffa6;
+}
+
+#listContent h3,
+#listContent h4 {
+	display: inline;
+	float: left;
+}
+
+#listContent h3 {
+	font-size: 130%;
+	font-weight: bold;
+	margin: 25px 15px 0 25px;
+}
+
+#listContent h4 {
+	font-weight: normal;
+	margin: 28px 0 0 0;
+}
+
+#listContent a {
+	display: block;
+	font-size: 110%;
+	margin: 28px 0 0 25px;
+}
+
+.leftCol,
+.rightCol {
+	height: 65px;
+	border-bottom: 2px solid #fff;
+	background: transparent;
+	text-align: left;
+}
+
+.leftCol {
+	width: 650px;
+	border-right: 2px solid #fff;
+}
+
+.rightCol {
+	width: 292px;
+}
+
+#footer {
+	margin: 40px 0 0 0;
+	font-size: 80%;
+	text-align: right;
+}
+
+.disclaimerContent {
+	text-align: left;
+	color: #666;
+}
+
+.disclaimerContent h2,
+.disclaimerContent h3 {
+	margin: 5px 0 0 0;
+}
+
+.disclaimerContent p {
+	margin: 0 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
